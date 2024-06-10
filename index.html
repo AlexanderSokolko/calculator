@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="calc">
+        <input readonly class="input" id="input" />
+        <div class="block_with_buttons">
+          <button onclick="deleteOAllValue()">CE</button>
+          <button onclick=" clearCalc()">C</button>
+          <button onclick="deleteOneValue()" class="delete_button">
+            <img class="delete" src="/delete.svg" />
+          </button>
+          <button onclick="enterOperators('/')">/</button>
+          <button onclick="enterNumbers(7)">7</button>
+          <button onclick="enterNumbers(8)">8</button>
+          <button onclick="enterNumbers(9)">9</button>
+          <button onclick="enterOperators('*')">*</button>
+          <button onclick="enterNumbers(4)">4</button>
+          <button onclick="enterNumbers(5)">5</button>
+          <button onclick="enterNumbers(6)">6</button>
+          <button onclick="enterOperators('-')">-</button>
+          <button onclick="enterNumbers(1)">1</button>
+          <button onclick="enterNumbers(2)">2</button>
+          <button onclick="enterNumbers(3)">3</button>
+          <button onclick="enterOperators('+')">+</button>
+          <button onclick="changeSign('+')">+-</button>
+          <button onclick="enterNumbers(0)">0</button>
+          <button onclick="enterNumbers('.')">.</button>
+          <button onclick="calc()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="/src.js"></script>
+  </body>
+</html>
