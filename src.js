@@ -91,7 +91,7 @@ function deleteOneValue() {
   input.value = a + operator + b;
 }
 //Удаляет все число
-function deleteOAllValue() {
+function deleteAllValue() {
   if (b !== "") {
     b = b.substring(0, -1);
   } else if (a !== "" && operator == "") {
