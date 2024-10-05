@@ -112,3 +112,5 @@ function changeSign() {
     input.value = a + operator + b;
   }
 }
+
+console.log ('Hello')
